@@ -144,3 +144,20 @@ body {
 }
 
 /* footer */
+footer {
+  font-weight: bolder;
+}
+
+.footcontainer {
+  width: 1400px;
+  margin: auto;
+}
+
+.divbig {
+  width: 400px;
+  padding-top: 40px;
+}
+
+.divlinks {
+  width: 195px;
+}
