@@ -1,0 +1,112 @@
+/* varie */
+.borderbot {
+  border-bottom: 1px solid;
+}
+
+/* colori */
+body {
+  color: #7F14D4;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.violetext {
+  color: #7F14D4;
+}
+
+/* text */
+.textbold {
+  font-weight: bolder;
+}
+
+.textbig {
+  font-size: 36px;
+}
+
+.textmidmax {
+  font-size: 24px;
+}
+
+.textmid {
+  font-size: 18px;
+}
+
+.textsmall {
+  font-size: 14px;
+}
+
+/* pads */
+.padbotlil {
+  padding-bottom: 30px;
+}
+
+.padlateralibig {
+  padding: 0 300px;
+}
+
+.padlatsmall {
+  padding: 0 100px;
+}
+
+.padtopdown {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.padleft {
+  padding-left: 180px;
+}
+
+/* float */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+/* header */
+.headerup, .headerdown {
+  width: 1400px;
+  margin: auto;
+}
+
+.headerup {
+  border-bottom: 1px solid;
+  padding: 20px 0 10px 0;
+}
+
+.headerup > div > p {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.headerdown > div {
+  width: 690px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.headerdown {
+  padding-bottom: 50px;
+}
+
+/* 2 */
+.dbbg1 {
+  background-color: #0414B3;
+}
+
+.dbbg1 > div {
+  width: 1400px;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* 4 */
