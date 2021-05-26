@@ -1,7 +1,83 @@
+$darkblue: #0414B3;
+$electricviolet: #7F14D4;
+$blue:  #0E14EE;
+$persianblue: #3E14E9;
 
 
-.test{
-    background-color: aqua;
-    height: 200px;
-    width: 200px;
+/* colori */
+body{
+    color: $electricviolet;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.violetext{
+    color: $electricviolet;
+}
+
+
+/* text */
+.testbold{
+    font-weight: bolder;
+}
+.textbig{
+    font-size: 40px;
+}
+.textmid{
+    font-size: 18px;
+}
+.textsmall{
+    font-size: 14px;
+}
+
+/* pads */
+.padbotlil{
+    padding-bottom: 30px;
+}
+
+/* float */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+
+
+
+
+
+/* header */
+
+.headerup, .headerdown{
+    width: 1400px;
+    margin: auto;
+}
+.headerup{
+    border-bottom: 1px solid;
+    padding: 20px 0 10px 0;
+}
+.headerup > div > p{
+    display: inline-block;
+    padding: 0 10px;
+}
+.headerdown > div{
+    width: 690px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+
+/* 2 */
+
+.dbbg{
+    background-color: $darkblue;
+}
+
+
+/* 4 */
